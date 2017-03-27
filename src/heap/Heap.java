@@ -97,7 +97,7 @@ public class Heap<E> extends CompleteBinaryTree<E> {
 				if (cmp.compare(minChild.getElement(), this.right(r).getElement()) > 0)
 					minChild = rChild; 
 			}
-			CBTPosition<E> minChild1= (CBTPosition<E>) this.right(r);
+			
 			
 			
 		}
