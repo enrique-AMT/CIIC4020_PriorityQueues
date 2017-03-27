@@ -99,6 +99,11 @@ public class Heap<E> extends CompleteBinaryTree<E> {
 			}
 			
 			
+			if (cmp.compare(minChild.getElement(), r.getElement()) < 0) { 
+				swapPositionsInList(minChild, r);    // p is now parent of parent....
+				downHeap(r); 
+			
+			}
 			
 		}
 	}
